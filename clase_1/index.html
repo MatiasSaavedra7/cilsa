@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <!-- <link rel="stylesheet" href="./css/contraste.css" /> -->
     <title>Formulario de Registro</title>
   </head>
   <body>
@@ -18,27 +17,27 @@
       <form action="" method="post">
         <div>
           <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" />
+          <input type="text" name="nombre" id="nombre" required />
         </div>
 
         <div>
           <label for="apellido">Apellido</label>
-          <input type="text" name="apellido" id="apellido" />
+          <input type="text" name="apellido" id="apellido" required />
         </div>
 
         <div>
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+          <input type="email" name="email" id="email" required />
         </div>
 
         <div>
           <label for="fecha_nacimiento">Fecha de Nacimiento</label>
-          <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" />
+          <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required />
         </div>
 
         <div>
           <label for="pais">Pais de Residencia</label>
-          <input type="text" name="pais" id="pais" />
+          <input type="text" name="pais" id="pais" required />
         </div>
 
         <button type="submit">Enviar</button>
