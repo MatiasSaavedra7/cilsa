@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Matias Saavedra" />
+    <meta name="description" content="Formulario de Datos Personales" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/contraste.css" /> -->
+    <title>Formulario de Registro</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Formulario de Datos Personales</h1>
+      <form action="" method="post">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+
+        <div>
+          <label for="apellido">Apellido</label>
+          <input type="text" name="apellido" id="apellido" />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div>
+          <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+          <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" />
+        </div>
+
+        <div>
+          <label for="pais">Pais de Residencia</label>
+          <input type="text" name="pais" id="pais" />
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <button type="button" id="botonAltoContraste">
+        Estilo de Alto Contraste
+      </button>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

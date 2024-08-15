@@ -1,0 +1,33 @@
+body {
+  color: white;
+}
+
+.form-container {
+  background-color: #000000;
+}
+
+.form-container form {
+  background-color: #171718;
+}
+
+.form-container input {
+  background-color: #171718;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: inherit;
+}
+
+.form-container button {
+  background-color: orange;
+  color: black;
+}
+
+#botonAltoContraste {
+  border: none;
+  background-color: orange;
+}
+
+#botonAltoContraste:hover {
+  background-color: orange;
+  opacity: 0.9;
+}
